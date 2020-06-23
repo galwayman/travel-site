@@ -5,4 +5,7 @@
 @import '../styles/base/_mixins.css';
 @import '../styles/base/variables.css';
 @import '../styles/modules/_large-hero.css';
+@import '../styles/modules/_wrapper.css';
+@import '../styles/modules/_page-section.css';
+@import '../styles/modules/_headline.css';
 @import 'normalize.css';
