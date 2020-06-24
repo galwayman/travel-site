@@ -1,0 +1,36 @@
+.row{
+
+}
+
+@media (min-width:800px) {
+    .row__medium--4{
+        float: left;
+        width: 33.333333%;
+        }
+        .row__medium--8{
+        float: left;
+        width: 66.666666%;
+        }  
+
+        .row__medium--4--larger{
+
+            width: 37%;
+        }
+        
+        .row__medium--8--smaller{
+            width: 63%;
+        }
+}
+
+.clearFix{
+    clear: both;
+    display: table;
+}
+
+.row--gutters{
+    margin-right: -65px;
+}
+
+.row--gutters > div{
+    padding-right: 65px;
+}
