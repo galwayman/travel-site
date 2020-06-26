@@ -1,12 +1,12 @@
-
-@import '../styles/modules/_large-hero.css';
-@import '../styles/modules/_btn.css';
+@import 'normalize.css';
 @import '../styles/base/_global.css';
 @import '../styles/base/_mixins.css';
+@import '../styles/modules/_large-hero.css';
+@import '../styles/modules/_btn.css';
 @import '../styles/base/variables.css';
 @import '../styles/modules/_large-hero.css';
 @import '../styles/modules/_wrapper.css';
 @import '../styles/modules/_page-section.css';
 @import '../styles/modules/_headline.css';
 @import '../styles/modules/_row.css';
-@import 'normalize.css';
+@import '../styles/modules/_generic-content-container.css';

@@ -35,3 +35,6 @@ margin-bottom: .5em;
 .headline--margin--b--large{
 margin-bottom: 1.6em;
 }
+.headline--no-t-margin{
+    margin-top: 0;
+}
