@@ -24,5 +24,11 @@
         margin-right: 0.5rem;
         display: inline-block;
         margin-bottom: 0;
+        position: relative;
+        top: 8px;
     }
+}
+
+.section-title--blue{
+    color: #2f5572;
 }

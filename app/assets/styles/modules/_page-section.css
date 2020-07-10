@@ -10,3 +10,9 @@
     background-color: #2f5572;
     color: white;
 }
+
+.page-section--testimonials{
+    background-image: url("assets/images/testimonials-bg.jpg");
+
+    background-size: cover;
+}

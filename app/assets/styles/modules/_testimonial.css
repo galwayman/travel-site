@@ -1,0 +1,27 @@
+.testimonial{
+    background-color: rgba(255,255,255,0.8);
+    padding: 0 1.8125rem 1px 1.8124rem;
+}
+.testimonial__photo{
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto -80px auto;
+    position: relative;
+    top: -80px;
+    border: white solid 6px;
+}
+.testimonial__title{
+    text-align: center;
+    color: #2f5572;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+.testimonial__subtitle{
+    color: #d59541;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    margin: 0.25rem 1rem;
+}
