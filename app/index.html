@@ -29,7 +29,11 @@
                         Features
                     </a>
                 </li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li>
+                    <a href="#testimonials">
+                        Testimonials
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -37,32 +41,29 @@
     <div class="large-hero">
         <picture>
             <source srcset="assets/images/hero--large.jpg 1920w,
-                            assets/images/hero--large-hi-dpi.jpg 3840w
-          " media="(min-width:1380px)" />
-            <source srcset="
-            assets/images/hero--medium.jpg        1380w,
-            assets/images/hero--medium-hi-dpi.jpg 2760w
-          " media="(min-width:990px)" />
-            <source srcset="
-            assets/images/hero--small.jpg         990w,
-            assets/images/hero--small-hi-dpi.jpg 1980w
-          " media="(min-width:640px)" />
-            <img class="large-hero__image" srcset="
-            assets/images/hero--smaller.jpg         640w,
-            assets/images/hero--smaller-hi-dpi.jpg 1280w
-          " alt="Coastal View" />
+                            assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width:1380px)" />
+            <source srcset="assets/images/hero--medium.jpg 1380w,
+                            assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width:990px)" />
+            <source srcset="assets/images/hero--small.jpg 990w,
+                            assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width:640px)" />
+            <img class="large-hero__image" srcset="assets/images/hero--smaller.jpg 640w,
+                         assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Coastal View" />
         </picture>
         <div class="large-hero__text-content">
             <div class="wrapper">
                 <h1 class="large-hero__title">
                     Your clarity.
                 </h1>
-                <h2 class="large-hero__sub-title">One trip away.</h2>
+                <h2 class="large-hero__sub-title">
+                    One trip away.
+                </h2>
                 <p class="large-hero__description">
                     We create soul restoring journeys that inspire you to be you.
                 </p>
                 <p>
-                    <a href="#" class="btn btn__large mainOrange-Background">Get Started Today</a>
+                    <a href="#" class="btn btn__large mainOrange-Background">
+                        Get Started Today
+                    </a>
                 </p>
             </div>
         </div>
@@ -70,13 +71,18 @@
 
     <div id="our-beginning" class="page-section">
         <div class="wrapper">
-            <h2 class="headline headline--center headline-light headline--margin--b--small">
+            <h2 class="headline headline--center 
+                       headline-light 
+                       headline--margin--b--small">
                 The first trip we <strong>was our own.</strong>
             </h2>
-            <h3
-                class="headline headline--center headline--orange headline--small headline--narrow headline-light headline--margin--b--large">
-                Ever since, we&rsquo;ve been working to make travel
-                <strong>better for everyone.</strong>
+            <h3 class="headline headline--center 
+                       headline--orange 
+                       headline--small 
+                       headline--narrow 
+                       headline-light 
+                       headline--margin--b--large">
+                Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong>
             </h3>
             <div class="wrapper wrapper--medium wrapper--b--margin">
                 <img sizes="(min-width:976px) 967px, 100vw" srcset="
@@ -146,50 +152,89 @@
 
     <div id="features" class="page-section page-section--blue">
         <div class="wrapper">
-            <img src="assets/images/icons/star.svg" />
-            <h2>Our Features</h2>
+            <h2 class="section-title">
+                <img class="section-title__icon" src="assets/images/icons/star.svg" />
+                Our <strong>Features</strong>
+            </h2>
 
-            <img src="assets/images/icons/rain.svg" />
-            <h3>We&rsquo;ll Watch the Weather</h3>
-            <p>
-                Download our app and we&rsquo;ll send you a notice if it&rsquo;s about
-                to rain in the next 20 minutes around your current location. A good
-                rain can be refreshing, but sometimes you just want to stay dry.
-            </p>
+            <div class="row row--gutters-large generic-content-container">
+                <div class="row__medium--6">
 
-            <img src="assets/images/icons/globe.svg" />
-            <h3>Global Guides</h3>
-            <p>
-                We&rsquo;ve scoured the entire planet for the best retreats and
-                beautiful vistas. If there&rsquo;s a corner of the world you want to
-                escape to we know the most scenic and inspiring locations.
-            </p>
+                    <div class="feature-item">
+                        <img class="feature-item__icon" src="assets/images/icons/rain.svg" />
+                        <h3 class="feature-item__title">
+                            We&rsquo;ll Watch the Weather
+                        </h3>
+                        <p>
+                            Download our app and we&rsquo;ll send you a notice if it&rsquo;s about
+                            to rain in the next 20 minutes around your current location. A good
+                            rain can be refreshing, but sometimes you just want to stay dry.
+                        </p>
+                    </div>
 
-            <img src="assets/images/icons/wifi.svg" />
-            <h3>Wi-Fi Waypoints</h3>
-            <p>
-                We only send you on trips to places we can personally vouch for as
-                being amazing. Which means we&rsquo;ve mapped out where local wi-fi
-                spots are and marked them in our app&rsquo;s map view.
-            </p>
+                    <div class="feature-item">
+                        <img class="feature-item__icon" src="assets/images/icons/globe.svg" />
+                        <h3 class="feature-item__title">
+                            Global Guides
+                        </h3>
+                        <p>
+                            We&rsquo;ve scoured the entire planet for the best retreats and
+                            beautiful vistas. If there&rsquo;s a corner of the world you want to
+                            escape to we know the most scenic and inspiring locations.
+                        </p>
+                    </div>
 
-            <img src="assets/images/icons/fire.svg" />
-            <h3>Survival Kit</h3>
-            <p>
-                Everytime you book an escape with us we send you a survival kit with
-                the finest materials. The kit will allow you to setup a tent, start a
-                fire, scratch your own back and lower your taxes.
-            </p>
+
+                </div>
+                <div class="row__medium--6">
+                    <div class="feature-item">
+                        <img class="feature-item__icon" src="assets/images/icons/wifi.svg" />
+                        <h3 class="feature-item__title">
+                            Wi-Fi Waypoints
+                        </h3>
+                        <p>
+                            We only send you on trips to places we can personally vouch for as
+                            being amazing. Which means we&rsquo;ve mapped out where local wi-fi
+                            spots are and marked them in our app&rsquo;s map view.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <img class="feature-item__icon" src="assets/images/icons/fire.svg" />
+                        <h3 class="feature-item__title">
+                            Survival Kit
+                        </h3>
+                        <p>
+                            Everytime you book an escape with us we send you a survival kit with
+                            the finest materials. The kit will allow you to setup a tent, start a
+                            fire, scratch your own back and lower your taxes.
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
         </div>
     </div>
 
     <div id="testimonials">
         <img src="assets/images/icons/comment.svg" />
-        <h2>Real Testimonials</h2>
+        <h2>
+            Real Testimonials
+        </h2>
 
         <img src="assets/images/testimonial-jane.jpg" />
-        <h3>Jane Doe</h3>
-        <h3>9 Time Escaper</h3>
+        <h3>
+            Jane Doe
+        </h3>
+        <h3>
+            9 Time Escaper
+        </h3>
         <p>
             &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -200,8 +245,12 @@
         </p>
 
         <img src="assets/images/testimonial-john.jpg" />
-        <h3>John Smith</h3>
-        <h3>4 Time Escaper</h3>
+        <h3>
+            John Smith
+        </h3>
+        <h3>
+            4 Time Escaper
+        </h3>
         <p>
             &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -210,8 +259,12 @@
         </p>
 
         <img src="assets/images/testimonial-cat.jpg" />
-        <h3>Cat McKitty</h3>
-        <h3>6 Time Escaper</h3>
+        <h3>
+            Cat McKitty
+        </h3>
+        <h3>
+            6 Time Escaper
+        </h3>
         <p>
             &ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -224,7 +277,9 @@
     <footer>
         <p>
             Copyright &copy; 2019 Clear View Escapes. All rights reserved.
-            <a href="#" class="btn btn__orange">Get in Touch</a>
+            <a href="#" class="btn btn__orange">
+                Get in Touch
+            </a>
         </p>
     </footer>
 
