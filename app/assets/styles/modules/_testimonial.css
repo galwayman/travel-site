@@ -1,6 +1,12 @@
 .testimonial{
     background-color: rgba(255,255,255,0.8);
-    padding: 0 1.8125rem 1px 1.8124rem;
+    padding: 0 18px 1px 18px;
+    margin-bottom: 98px;
+
+    @media (min-width:800px) {
+        padding: 0 1.8125rem 1px 1.8124rem;
+        margin-bottom: 0px;
+    }
 }
 .testimonial__photo{
     border-radius: 80px;
@@ -24,4 +30,7 @@
     font-weight: 400;
     font-size: 0.9375rem;
     margin: 0.25rem 1rem;
+}
+.testimonial--last{
+    margin-bottom: 0;
 }
