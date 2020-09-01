@@ -33,3 +33,13 @@
     }
 
 }
+.wrapper--no-padding-until-large {
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (min-width:1010px) {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+}

@@ -15,9 +15,9 @@
 
     background-color: #e0e6ef;
 
-    @media (min-width:800px) {
+    @media (min-width:1010px) {
         background-image: url("assets/images/testimonials-bg.jpg");
-    background-size: cover;
+        background-size: cover;
      }
  
 }
@@ -26,6 +26,13 @@
     padding-bottom: 0;
 
     @media (min-width:800px) {
+        padding-bottom: 4.5rem;
+     }
+}
+.page-section--no-b-padding-until-large{
+    padding-bottom: 0;
+
+    @media (min-width:1010px) {
         padding-bottom: 4.5rem;
      }
 }
